@@ -1,16 +1,21 @@
 # MarinaPipe Dataset
 Underwater pipeline RGB images dataset recorded in the botom flor of a recorded in a marina close to the north of Portugal, by our partner OceanScan-MST using a lightweight autonomous underwater vehicle (LAUV). It contains videos, image frames and annotation for pipelinesegmentation.
 
-This dataset is released together with the paper "Bridging the Sim-to-Real GAP for Underwater Image Segmentation", by Luiza Ribeiro Marnet, Stella Grasshof, Yury Brodskiy, and Andrzej Wasowski.
+This dataset is released together with the paper "Bridging the Sim-to-Real GAP for Underwater Image Segmentation", by Luiza Ribeiro Marnet, Stella Grasshof, Yury Brodskiy, and Andrzej Wasowski.<br>
 
-The seven original videos are available in the repository.
+The seven original videos are available in the repository.<br>
 
-From each video, 5 frames per second were extracted. From these frames, 10% were randomely selected from labeling. 
-The selected images with the respective labels are available for downloading.
-Two types of annotation were used, fine and coarse.  The images below exemplify the the differences between both.
+From each video, 5 frames per second were extracted. From these frames, 10% were randomely selected from labeling. <br>
+The selected images with the respective labels are available for downloading.<br>
+Two types of annotation were used, fine and coarse.  The images below exemplify the the differences between both. Notice that in the fine annotation the label tries to better define the contours of the visible pipeline.<br>
 
-The table bellow sumarizes the datasets.
-In annotation type, both referes to both fine and coarse annoation. 
+|RGB image    |Coarse annotation| Fine annotation | 
+|---------|---------------|-------------------|
+|<img align="left" height="100" alt="frame0-01-25 00" src="https://github.com/remaro-network/MarinaPipe-dataset/assets/58445878/39a34b5f-8a65-41a7-af78-41a46a916d06">|<img align="left" height="100" alt="frame0-01-25 00_label" src="https://github.com/remaro-network/MarinaPipe-dataset/assets/58445878/e155d889-7927-4a8e-a5ef-cef7988a626f">|<img align="left" height="100" alt="frame0-01-25 00_label" src="https://github.com/remaro-network/MarinaPipe-dataset/assets/58445878/f5e45a39-2b74-4301-8817-cbdade6468a8">| 
+
+
+The table bellow sumarizes the datasets.<br>
+In the column annotation type, both referes to both fine and coarse annoation. <br>
 
 |Video    |Selected frames| Frames with pipes | Annotation Type | Occlusions |
 |---------|---------------|-------------------|-----------------|------------|
@@ -22,14 +27,26 @@ In annotation type, both referes to both fine and coarse annoation.
 |6        | 270           | 11                | Coarse          | Yes        |
 |7        | 186           | 17                | Both            | Yes        |
 
-In the table above, occlusions refers to the fact that some pipelines are partially covered by marine sedments.
-The images bellow show the differences between a pipeline with occlusions (left) and a pipeline with no occlusions (right).
+In the table above, occlusions refers to the fact that some pipelines are partially covered by marine sedments.<br>
+
+The images bellow show the differences between a pipeline with and without occlusions. Notice that in this dataset we do not consider fish on top of the pipeline as occlusion.
+
+|Occlusion    |No occlusion | 
+|---------|---------------|
+|<img align="left" height="100" alt="frame0-00-25 60" src="https://github.com/remaro-network/MarinaPipe-dataset/assets/58445878/194809ef-98e4-4006-bbf2-a142cae855c8">|<img align="left" height="100" alt="frame0-00-53 80" src="https://github.com/remaro-network/MarinaPipe-dataset/assets/58445878/7df79aab-f761-4583-9348-3e6b30f9a4f4">| 
+|<img align="left" height="100" alt="frame0-02-38 20" src="https://github.com/remaro-network/MarinaPipe-dataset/assets/58445878/f221b49b-066b-42fe-b84f-ebe0f3c3b594">|<img align="left" height="100" alt="frame0-01-01 40" src="https://github.com/remaro-network/MarinaPipe-dataset/assets/58445878/6698023a-c1d7-43b7-8341-6d19275fdc4c">| 
+
 
 ## Dataset Structure
 
-When downloading the dataset, inside the root you will find the folders:
+When downloading the dataset, inside the root you will find the folders:<br>
 
-The images below show the difference between a cropped image and its respective original image.
+The images below show the difference between a cropped images and their respective original images.<br>
+
+|Original    |Cropped | 
+|---------|---------------|
+|<img align="left" height="100" alt="frame0-00-25 60" src="https://github.com/remaro-network/MarinaPipe-dataset/assets/58445878/194809ef-98e4-4006-bbf2-a142cae855c8">|<img align="left" height="100" alt="frame0-00-53 80" src="https://github.com/remaro-network/MarinaPipe-dataset/assets/58445878/7df79aab-f761-4583-9348-3e6b30f9a4f4">| 
+|<img align="left" height="100" alt="frame0-02-38 20" src="https://github.com/remaro-network/MarinaPipe-dataset/assets/58445878/f221b49b-066b-42fe-b84f-ebe0f3c3b594">|<img align="left" height="100" alt="frame0-01-01 40" src="https://github.com/remaro-network/MarinaPipe-dataset/assets/58445878/6698023a-c1d7-43b7-8341-6d19275fdc4c">| 
 
 ## Acknowledgements
 
