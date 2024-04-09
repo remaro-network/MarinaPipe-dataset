@@ -13,9 +13,9 @@ Two types of annotation were used: fine and coarse.  The images below exemplify 
 |---------|---------------|-------------------|
 |<img align="left" height="100" alt="frame0-01-25 00" src="https://github.com/remaro-network/MarinaPipe-dataset/assets/58445878/39a34b5f-8a65-41a7-af78-41a46a916d06">|<img align="left" height="100" alt="frame0-01-25 00_label" src="https://github.com/remaro-network/MarinaPipe-dataset/assets/58445878/e155d889-7927-4a8e-a5ef-cef7988a626f">|<img align="left" height="100" alt="frame0-01-25 00_label" src="https://github.com/remaro-network/MarinaPipe-dataset/assets/58445878/f5e45a39-2b74-4301-8817-cbdade6468a8">| 
 
+The table below summarizes the datasets. <br>
+In the column "annotation type", "both" refers to fine and coarse annotation. <br>
 
-The table bellow sumarizes the datasets.<br>
-In the column annotation type, both referes to both fine and coarse annoation. <br>
 
 |Video    |Selected frames| Frames with pipes | Annotation Type | Occlusions |
 |---------|---------------|-------------------|-----------------|------------|
@@ -27,9 +27,9 @@ In the column annotation type, both referes to both fine and coarse annoation. <
 |6        | 270           | 11                | Coarse          | Yes        |
 |7        | 186           | 17                | Both            | Yes        |
 
-In the table above, occlusions refers to the fact that some pipelines are partially covered by marine sedments.<br>
+In the table above, "occlusions" refer to marine sediments partially covering some pipelines.<br>
 
-The images bellow show the differences between a pipeline with and without occlusions. Notice that in this dataset we do not consider fish on top of the pipeline as occlusion.
+The images below show the differences between a pipeline with and without occlusions. Notice that this dataset does not consider fish on top of the pipeline as occlusion.
 
 |Occlusion    |No occlusion | 
 |---------|---------------|
@@ -39,7 +39,7 @@ The images bellow show the differences between a pipeline with and without occlu
 
 ## Dataset Structure
 
-When downloading the dataset, inside the root you will find the folders:<br>
+Upon downloading the dataset, the following folders will be encountered:<br>
 * video_1
 * video_2
 * video_3
@@ -48,7 +48,7 @@ When downloading the dataset, inside the root you will find the folders:<br>
 * video_6
 * video_7
 
-Inside each of these folders the are the folders:
+Inside each of these folders are the folders:
 * original_selected_images: image frames selected for being labeled;
 * resized_selected_images: the same frames, but cropped;
 * fine_annotation: the labels for the fine annotation;
@@ -56,7 +56,7 @@ Inside each of these folders the are the folders:
 
 Notice that the folders video_5 and video_6 do not contain the folder fine_annotation since the frames from these videos were only labeled for coarse annotation, as mentioned in the table above.
 
-The images below show the difference between a cropped images and their respective original images. We decided to crop the images like ´that for mimicking that the pipeline was crossing the image, as it would be the case for majority of image in pipeline tracking tasks.<br>
+The images below show the difference between cropped images and their respective original images. We decided to crop the images like that to mimic the pipeline crossing the image, as would be the case for most of the images in pipeline tracking tasks.<br>
 
 
 |Original    |Cropped | 
