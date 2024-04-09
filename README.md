@@ -1,4 +1,7 @@
 # MarinaPipe Dataset
+
+Please, download the dataset in the LINK.
+
 MarinaPipe is an underwater pipeline RGB images dataset recorded in a marina near the north of Portugal by our partner OceanScan-MST using a lightweight autonomous underwater vehicle (LAUV). It contains videos, image frames, and annotation for pipeline segmentation.
 
 This dataset is released with the paper "Bridging the Sim-to-Real GAP for Underwater Image Segmentation" by Luiza Ribeiro Marnet, Stella Grasshof, Yury Brodskiy, and Andrzej Wasowski.<br>
