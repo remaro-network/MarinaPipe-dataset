@@ -1,13 +1,13 @@
 # MarinaPipe Dataset
-Underwater pipeline RGB images dataset recorded in the botom flor of a recorded in a marina close to the north of Portugal, by our partner OceanScan-MST using a lightweight autonomous underwater vehicle (LAUV). It contains videos, image frames and annotation for pipelinesegmentation.
+MarinaPipe is an underwater pipeline RGB images dataset recorded in a marina near the north of Portugal by our partner OceanScan-MST using a lightweight autonomous underwater vehicle (LAUV). It contains videos, image frames, and annotation for pipeline segmentation.
 
-This dataset is released together with the paper "Bridging the Sim-to-Real GAP for Underwater Image Segmentation", by Luiza Ribeiro Marnet, Stella Grasshof, Yury Brodskiy, and Andrzej Wasowski.<br>
+This dataset is released with the paper "Bridging the Sim-to-Real GAP for Underwater Image Segmentation" by Luiza Ribeiro Marnet, Stella Grasshof, Yury Brodskiy, and Andrzej Wasowski.<br>
 
 The seven original videos are available in the repository.<br>
 
-From each video, 5 frames per second were extracted. From these frames, 10% were randomely selected from labeling. <br>
+From each of the seven original videos, we extracted five frames per second. Ten percent of these frames were randomly selected from labeling. <br>
 The selected images with the respective labels are available for downloading.<br>
-Two types of annotation were used, fine and coarse.  The images below exemplify the the differences between both. Notice that in the fine annotation the label tries to better define the contours of the visible pipeline.<br>
+Two types of annotation were used: fine and coarse.  The images below exemplify the differences between both. Notice that in the fine annotation the label tries follow the contours of the visible pipeline.<br>
 
 |RGB image    |Coarse annotation| Fine annotation | 
 |---------|---------------|-------------------|
