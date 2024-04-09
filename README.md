@@ -1,5 +1,5 @@
 # MarinaPipe Dataset
-Underwater pipeline RGB images dataset recorded in the botom flor of a marina close to north of Portugal. Contains videos, image frames and annotation for pipelinesegmentation.
+Underwater pipeline RGB images dataset recorded in the botom flor of a recorded in a marina close to the north of Portugal, by our partner OceanScan-MST using a lightweight autonomous underwater vehicle (LAUV). It contains videos, image frames and annotation for pipelinesegmentation.
 
 This dataset is released together with the paper "Bridging the Sim-to-Real GAP for Underwater Image Segmentation", by Luiza Ribeiro Marnet, Stella Grasshof, Yury Brodskiy, and Andrzej Wasowski.
 
@@ -10,6 +10,7 @@ The selected images with the respective labels are available for downloading.
 Two types of annotation were used, fine and coarse.  The images below exemplify the the differences between both.
 
 The table bellow sumarizes the datasets.
+In annotation type, both referes to both fine and coarse annoation. 
 
 |Video    |Selected frames| Frames with pipes | Annotation Type | Occlusions |
 |---------|---------------|-------------------|-----------------|------------|
@@ -24,7 +25,7 @@ The table bellow sumarizes the datasets.
 In the table above, occlusions refers to the fact that some pipelines are partially covered by marine sedments.
 The images bellow show the differences between a pipeline with occlusions (left) and a pipeline with no occlusions (right).
 
-## Dataset structure
+## Dataset Structure
 
 When downloading the dataset, inside the root you will find the folders:
 
@@ -44,6 +45,11 @@ This work is part of the Reliable AI for Marine Robotics (REMARO) Project. <br> 
 This research was developed in collaboration with EIVA a/s. <br>Please, visit <a href="https://www.eiva.com/">EIVA's webpage</a>. <br><br>
 <br style="clear: both;">
 
+<a href="eu_flag">
+    <img align="left" height="60" alt="OceanScan logo" src="https://github.com/remaro-network/MarinaPipe-dataset/assets/58445878/690de90c-3024-463c-a8c9-81173dd4126a">
+</a>
+We thank OceanScan - Marine Systems & Technology Lda for recording the real pipeline dataset. <br>Please, visit <a href="https://www.oceanscan-mst.com/">OceanScan's webpage</a>. <br><br>
+<br style="clear: both;">
 
 <a href="eu_flag">
     <img align="left" height="60" alt="EU logo" src="https://github.com/remaro-network/Uncertainty-Driven-Active-Learning-for-Underwater/assets/58445878/7577c757-8b02-487a-9742-eea398a9100d">
