@@ -40,13 +40,30 @@ The images bellow show the differences between a pipeline with and without occlu
 ## Dataset Structure
 
 When downloading the dataset, inside the root you will find the folders:<br>
+* video_1
+* video_2
+* video_3
+* video_4
+* video_5
+* video_6
+* video_7
 
-The images below show the difference between a cropped images and their respective original images.<br>
+Inside each of these folders the are the folders:
+* original_selected_images: image frames selected for being labeled;
+* resized_selected_images: the same frames, but cropped;
+* fine_annotation: the labels for the fine annotation;
+* coarse_annotation: the labels for the coarse annotation.
+
+Notice that the folders video_5 and video_6 do not contain the folder fine_annotation since the frames from these videos were only labeled for coarse annotation, as mentioned in the table above.
+
+The images below show the difference between a cropped images and their respective original images. We decided to crop the images like ´that for mimicking that the pipeline was crossing the image, as it would be the case for majority of image in pipeline tracking tasks.<br>
+
 
 |Original    |Cropped | 
 |---------|---------------|
-|<img align="left" height="100" alt="frame0-00-25 60" src="https://github.com/remaro-network/MarinaPipe-dataset/assets/58445878/194809ef-98e4-4006-bbf2-a142cae855c8">|<img align="left" height="100" alt="frame0-00-53 80" src="https://github.com/remaro-network/MarinaPipe-dataset/assets/58445878/7df79aab-f761-4583-9348-3e6b30f9a4f4">| 
-|<img align="left" height="100" alt="frame0-02-38 20" src="https://github.com/remaro-network/MarinaPipe-dataset/assets/58445878/f221b49b-066b-42fe-b84f-ebe0f3c3b594">|<img align="left" height="100" alt="frame0-01-01 40" src="https://github.com/remaro-network/MarinaPipe-dataset/assets/58445878/6698023a-c1d7-43b7-8341-6d19275fdc4c">| 
+|<img align="left" height="100" alt="frame0-04-35 80" src="https://github.com/remaro-network/MarinaPipe-dataset/assets/58445878/f0a60164-e256-43b6-a97f-6900459504f7">|<img align="left" height="100" alt="frame0-04-35 80" src="https://github.com/remaro-network/MarinaPipe-dataset/assets/58445878/a4b2ae97-703e-4a11-a2b9-974b90fd0aea">|
+|<img align="left" height="100" alt="frame0-08-12 40" src="https://github.com/remaro-network/MarinaPipe-dataset/assets/58445878/8505edb9-0b1f-4c4b-a052-abbf7b9b711b">|<img align="left" height="100" alt="frame0-08-12 40" src="https://github.com/remaro-network/MarinaPipe-dataset/assets/58445878/d5eb73a5-c852-4416-8ed7-b7f5450c3f30">|
+
 
 ## Acknowledgements
 
