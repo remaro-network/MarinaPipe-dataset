@@ -1,12 +1,16 @@
 # MarinaPipe Dataset
 
-Please, download the dataset in the LINK.
+Please, download the dataset in the [LINK](https://zenodo.org/records/10951363).
 
 MarinaPipe is an underwater pipeline RGB images dataset recorded in a marina near the north of Portugal by our partner OceanScan-MST using a lightweight autonomous underwater vehicle (LAUV). It contains videos, image frames, and annotation for pipeline segmentation.
 
 This dataset is released with the paper "Bridging the Sim-to-Real GAP for Underwater Image Segmentation" by Luiza Ribeiro Marnet, Stella Grasshof, Yury Brodskiy, and Andrzej Wasowski.<br>
 
-The seven original videos are available in the repository.<br>
+When using MarinaPipe, please reference the paper "Bridging the Sim-to-Real GAP for Underwater Image Segmentation" and acknowledge OceanScan-MST for collecting the data using the lightweight autonomous underwater vehicle (LAUV).
+
+# Description
+
+Seven original videos are available in the repository.<br>
 
 From each of the seven original videos, we extracted five frames per second. Ten percent of these frames were randomly selected from labeling. <br>
 The selected images with the respective labels are available for downloading.<br>
@@ -85,7 +89,7 @@ This research was developed in collaboration with EIVA a/s. <br>Please, visit <a
 <a href="eu_flag">
     <img align="left" height="60" alt="OceanScan logo" src="https://github.com/remaro-network/MarinaPipe-dataset/assets/58445878/690de90c-3024-463c-a8c9-81173dd4126a">
 </a>
-We thank OceanScan - Marine Systems & Technology Lda for recording the real pipeline dataset. <br>Please, visit <a href="https://www.oceanscan-mst.com/">OceanScan's webpage</a>. <br><br>
+We thank OceanScan - Marine Systems & Technology Lda for recording the real pipeline dataset. The dataset was recorded using a lightweight autonomous underwater vehicle (LAUV) <br>Please, visit <a href="https://www.oceanscan-mst.com/">OceanScan's webpage</a>. <br><br>
 <br style="clear: both;">
 
 <a href="eu_flag">
